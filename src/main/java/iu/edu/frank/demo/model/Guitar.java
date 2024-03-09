@@ -1,8 +1,8 @@
-package iu.edu.jackliang.demo.model;
+package iu.edu.frank.demo.model;
 
-import iu.edu.jackliang.demo.enums.Builder;
-import iu.edu.jackliang.demo.enums.Type;
-import iu.edu.jackliang.demo.enums.Wood;
+import iu.edu.frank.demo.enums.Builder;
+import iu.edu.frank.demo.enums.Type;
+import iu.edu.frank.demo.enums.Wood;
 
 public class Guitar {
     private String serialNumber;

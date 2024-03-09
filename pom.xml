@@ -62,7 +62,7 @@
 				<configuration>
 					<includes>
 						<include>
-							iu.edu.jackliang.demo.repository.InventoryRepositoryTest
+							iu.edu.frank.demo.repository.InventoryRepositoryTest
 						</include>
 					</includes>
 					<excludes>

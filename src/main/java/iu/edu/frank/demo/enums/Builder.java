@@ -1,4 +1,4 @@
-package iu.edu.jackliang.demo.enums;
+package iu.edu.frank.demo.enums;
 
 public enum Builder{
     FENDER, MARTIN, GIBSON, COLLINGS, OLSON, RYAN, PRS, ANY;

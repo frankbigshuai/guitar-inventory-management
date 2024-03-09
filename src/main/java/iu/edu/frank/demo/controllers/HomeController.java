@@ -1,4 +1,4 @@
-package iu.edu.jackliang.demo.controllers;
+package iu.edu.frank.demo.controllers;
 
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;

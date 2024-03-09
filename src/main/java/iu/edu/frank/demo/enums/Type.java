@@ -1,4 +1,4 @@
-package iu.edu.jackliang.demo.enums;
+package iu.edu.frank.demo.enums;
 
 public enum Type{
     ACOUSTIC, ELECTRIC;

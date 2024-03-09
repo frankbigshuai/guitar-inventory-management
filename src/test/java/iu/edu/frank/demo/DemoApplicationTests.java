@@ -1,4 +1,4 @@
-package iu.edu.jackliang.demo;
+package iu.edu.frank.demo;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

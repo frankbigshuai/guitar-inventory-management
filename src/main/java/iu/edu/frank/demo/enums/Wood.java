@@ -1,4 +1,4 @@
-package iu.edu.jackliang.demo.enums;
+package iu.edu.frank.demo.enums;
 
 public enum Wood{
     INDIAN_ROSEWOOD, BRAZILIAN_ROSEWOOD, MAHOGANY, MAPLE, COCOBOLO, CEDAR, ADIRONDACK, ALDER, SITKA;
