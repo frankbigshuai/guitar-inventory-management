@@ -33,3 +33,10 @@ jobs:
           path: target/surefire-reports/*.xml
           reporter: java-junit
           fail-on-error: true
+
+      - name: Build and push the image
+        run: |
+            docker login --username frankbigshuai --password ${{secrets.ACCESS_TOKEN}} ghcr.io
+            docker build -t ghcr.io/frankbigshuai/lab6:latest --file Dockerfile .  
+            docker push ghcr.io/frankbigshuai/lab6:latest
+
