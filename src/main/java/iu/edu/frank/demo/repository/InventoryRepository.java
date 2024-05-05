@@ -33,7 +33,7 @@ public class InventoryRepository {
     public boolean addGuitar(Guitar guitar)throws IOException {
 
         Path path = Paths.get(DATABASE_NAME);
-        String data = guitar.getSerialNumber() + "," + guitar.price() + "," + guitar.getBuilder() + "," + guitar.getModel()+ "," +guitar.getType()+ "," +guitar.getBackWood()+ "," +guitar.getTopWood();
+        String data = guitar.getSerialNumber() + "," + guitar.getPrice() + "," + guitar.getBuilder() + "," + guitar.getModel()+ "," +guitar.getType()+ "," +guitar.getBackWood()+ "," +guitar.getTopWood();
         appendToFile(path,data + NEW_LINE);
         guitars.add(guitar);
         return true;

@@ -3,14 +3,31 @@ package iu.edu.frank.demo.model;
 import iu.edu.frank.demo.enums.Builder;
 import iu.edu.frank.demo.enums.Type;
 import iu.edu.frank.demo.enums.Wood;
+import jakarta.persistence.Column;
+import jakarta.persistence.GeneratedValue;
+import jakarta.persistence.Id;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
 
+@Getter
+@Setter
+@NoArgsConstructor
 public class Guitar {
+    @Id
+    @Column(name = "guitar_serialNumber")
     private String serialNumber;
+    @Column(name = "guitar_price")
     private Double price;
+    @Column(name = "guitar_builder")
     private Builder builder;
+    @Column(name = "guitar_model")
     private String model;
+    @Column(name = "guitar_type")
     private Type type;
+    @Column(name = "guitar_backwood")
     private Wood backWood;
+    @Column(name = "guitar_topwood")
     private Wood topWood;
 
     public Guitar(String sn, Double price, Builder b, String m, Type t, Wood bW, Wood tW){
@@ -23,30 +40,6 @@ public class Guitar {
         this.topWood = tW;
     }
 
-    public String getSerialNumber(){
-        return this.serialNumber;
-    }
-    public double price(){
-        return this.price;
-    }
-    public void setPrice(Double np){
-        this.price = np;
-    }
-    public Builder getBuilder(){
-        return this.builder;
-    }
-    public String getModel(){
-        return this.model;
-    }
-    public Type getType(){
-        return this.type;
-    }
-    public Wood getBackWood(){
-        return this.backWood;
-    }
-    public Wood getTopWood(){
-        return this.topWood;
-    }
 
 
 }
